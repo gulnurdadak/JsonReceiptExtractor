@@ -6,6 +6,7 @@ Bu proje, C# dilinde yazılmıştır ve bir JSON dosyasındaki verileri okuma ve
 
 1. Projeyi bilgisayarınıza indirin.
 2. İşlem yapmak istediğiniz JSON dosyasını `ResponseJsonFiles` klasörüne ekleyin. Dosya adını "response.json" olarak belirtmelisiniz.
+3. Mevcut "response.json" dosyası "JsonReceiptExtractor/ResponseJsonFiles" yolu takip edilip bulunabilir.
 3. Proje dosyalarınızın bulunduğu dizinde terminal veya komut istemcisini açın.
 4. `dotnet run` komutunu kullanarak programı çalıştırın.
 5. Program, JSON dosyasındaki verileri okuyacak ve ekrana yazdıracaktır.
