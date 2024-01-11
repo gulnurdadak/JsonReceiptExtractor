@@ -5,6 +5,7 @@
         public List<Line> lines { get; set; } = new List<Line>();
 
         //JSON dosyasından okuma yapılabilmesi için baş harfleri küçük tanımlanmıştır.
+        //coordinates gerektiğinde kullanılabilir.
         public class Line
         {
             public string description { get; set; }
