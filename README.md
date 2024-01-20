@@ -1,28 +1,28 @@
 # JsonReceiptExtractor
 
-Bu proje, C# dilinde yazılmıştır ve bir JSON dosyasındaki verileri okuma ve işleme sürecini göstermektedir. Newtonsoft.Json kütüphanesi kullanılarak JSON verileri C# nesnelerine dönüştürülmektedir.
+This project is written in C# and demonstrates the process of reading and processing data from a JSON file. JSON data is converted to C# objects using the Newtonsoft.Json library.
 
-## Kullanım
+## Usage
 
-1. Projeyi bilgisayarınıza indirin.
-2. İşlem yapmak istediğiniz JSON dosyasını `ResponseJsonFiles` klasörüne ekleyin. Dosya adını "response.json" olarak belirtmelisiniz.
-3. Mevcut "response.json" dosyası "JsonReceiptExtractor/ResponseJsonFiles" yolu takip edilip bulunabilir.
-3. Proje dosyalarınızın bulunduğu dizinde terminal veya komut istemcisini açın.
-4. `dotnet run` komutunu kullanarak programı çalıştırın.
-5. Program, JSON dosyasındaki verileri okuyacak ve ekrana yazdıracaktır.
+1. Download the project to your computer.
+2. Add the JSON file you want to process to the `ResponseJsonFiles` folder. The file must be named "response.json."
+3. The existing "response.json" file can be found by following the path "JsonReceiptExtractor/ResponseJsonFiles."
+4. Open a terminal or command prompt in the directory where your project files are located.
+5. Run the program using the `dotnet run` command.
+6. The program will read the data from the JSON file and print it to the screen.
 
-## Önemli Notlar
+## Important Notes
 
-- JSON dosyasının adı "response.json" olmalıdır.
-- JSON veri yapısı, `JsonModel` sınıfına uygun olmalıdır.
-- Koordinat verileri, `int[]` tipinde olmalı ve dört index içermelidir.
+- The name of the JSON file must be "response.json."
+- The JSON data structure must conform to the `JsonModel` class.
+- Coordinate data must be of type `int[]` and must contain four indices.
 
-## Proje Yapısı
+## Project Structure
 
-- **Program.cs**: JSON verilerini okuyan ve işleyen ana uygulama dosyası.
-- **JsonModel.cs**: JSON verilerinin deserialize edilmesi için kullanılan sınıf.
+- **Program.cs**: The main application file that reads and processes JSON data.
+- **JsonModel.cs**: The class used for deserializing JSON data.
 
-## Gereksinimler
+## Requirements
 
-- [.NET SDK](https://dotnet.microsoft.com/download) (Sürüm: 6.0 veya üstü)
-- [Newtonsoft.Json](https://www.newtonsoft.com/json) (Kurulum: `dotnet add package Newtonsoft.Json`)
+- [.NET SDK](https://dotnet.microsoft.com/download) (Version: 6.0 or higher)
+- [Newtonsoft.Json](https://www.newtonsoft.com/json) (Installation: `dotnet add package Newtonsoft.Json`)
